@@ -1,0 +1,90 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Build directories
+*.builds
+
+# Microsoft Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# User-specific files
+*.vspscc
+*.vssscc
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.sql
+*.cache
+*.pdb
+*.mdb
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Local test results
+TestResults/
+*.trx
+
+# Global.json
+global.json
+
+# Coverage results
+coverage*.json
+coverage*.xml
+coverage*.info
+.nyc_output/
+
+# Uncomment if using Azure DevOps pipeline artifacts
+# **/*.azure-pipelines.yml
+
+# JetBrains Rider
+.idea/
+
+# Uncomment if using DotNet Core
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+.fake

@@ -1,0 +1,23 @@
+___________________
+Database Credential
+
+IP: 157.180.27.229
+Port: 1433
+Database: autoease
+username: sa
+password: Nopassword0
+
+__________________________________
+Executing SQL Commands from docker
+
+> Open console from inside the docker
+> Run the following command to enter the command prompt
+> /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "Nopassword0" -C
+> use autoease
+> (query here)
+
+___________
+Migrations:
+
+> dotnet ef migrations add UpdateExampleEntity
+> dotnet ef database update

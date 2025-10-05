@@ -1,2 +1,0 @@
-# portfolio
-adeel-fullstack-showcase
